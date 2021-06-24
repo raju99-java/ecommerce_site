@@ -1,0 +1,419 @@
+/* Primary color : #fe5f1e
+primary-hover : #b23301
+secondary color : #f8f8f8
+pure : #fff
+dark : #232323
+gray : #ccc
+*/
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing : antialiased;
+    color: #232323;
+}
+
+nav li:last-child a{
+    background: #f3703d;
+}
+
+nav li a:hover{
+    transition : all .3s  ease-in-out;
+  color : #fe5f1e;
+  
+}
+
+.pizza{
+   text-align: center;
+   font-size: large;
+}
+
+section.hero{
+    background: #f8f8f8;
+}
+.size{
+    background: #f8f8f8;
+}
+
+.add-to-cart{
+    border: 2px solid #fe5f1e;
+    color: #fe5f1e;
+    transition : all .3s  ease-in-out;
+}
+
+.add-to-cart:hover{
+    background: #fe5f1e;
+    border-color: #fff;
+    color: #fff;
+}
+
+.add-to-cart:focus{
+    outline: none;
+}
+
+.btn{
+    background: #fe5f1e;
+    transition : all .3s  ease-in-out;
+}
+
+.btn:hover{
+    background: #b23301;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+section.cart{
+    background: #f8f8f8;
+}
+
+section.login{
+    background: #f8f8f8;
+    min-height: cal(100vh-86px);
+}
+
+section.login a{
+    color: #fe5f1e;
+}
+
+.noty_theme{
+    border-radius: 50px!important;
+    padding-left: 8px!important;
+}
+  
+/* Dropdown Button */
+.dropbtn {
+    /*background-color: #04AA6D;*/
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: white;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /*.dropdown:hover .dropbtn {background-color: none;}*/
+
+  a.link{
+      color: red;
+  }
+
+  section.status{
+      background: #f8f8f8;
+      min-height: calc(100vh - 86px);
+  }
+
+  .status-box{
+      padding: 60px 0 0;
+  }
+
+  /*Dots*/
+  .status-box ul{
+      margin-left: 84px;
+  }
+  .status-box ul li span{
+      position: relative;
+      padding-left: 20px;
+  }
+
+  .status-box ul li span:after{
+      content: '';
+      position: absolute;
+      left: -10px;
+      top: 50%;
+      background: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      transform: translateY(-50%);
+      box-shadow: 0 0 1px 10px #f8f8f8;
+  }
+
+  /*icons*/
+  
+  .status-box ul li span:before{
+      font-family: "Line Awesome Free";
+      font-size: 46px;
+      font-weight: 600;
+      position: absolute;
+      left: -90px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: black;
+  }
+
+  .status-box ul li:nth-child(1) span:before{
+    content: '\f46c';
+  }
+  .status-box ul li:nth-child(2) span:before{
+    content: '\f560';
+  }
+  .status-box ul li:nth-child(3) span:before{
+    content: '\f818';
+  }
+  .status-box ul li:nth-child(4) span:before{
+    content: '\f0d1';
+  }
+  .status-box ul li:nth-child(5) span:before{
+    content: '\f582';
+  }
+
+  /*line*/
+  .status-box ul li{
+      position: relative;
+  }
+  .status-box ul li:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 2px;
+    height: 100%;
+    background: black;
+    margin-top: 10px;
+  }
+
+  
+  .status-box ul li:nth-child(5) span:after{
+      box-shadow: 0 20px 1px 20px #f8f8f8;
+  }
+
+  /* status done*/
+
+  /*line*/
+  .status-box ul li.step-completed:before{
+      background: gray;
+  }
+  /*dots*/
+  .status-box ul li.step-completed span:after{
+    background: gray;
+  }
+
+  /*text*/
+  .status-box ul li.step-completed span{
+    color: gray;
+  }
+/*icons*/
+  .status-box ul li.step-completed span:before{
+    color: gray;
+  }
+
+  /* current status */
+
+  /*dots*/
+  .status-box ul li.current span:after{
+    background: darkorange;
+  }
+
+  /*text*/
+  .status-box ul li.current span{
+    color: darkorange;
+  }
+/*icons*/
+  .status-box ul li.current span:before{
+    color: darkorange;
+  }
+
+  /*time*/
+
+  .status-box ul li small{
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  @media(max-width: 1060px) {
+    .container{
+      max-width: 90%;
+    }
+    table{
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+
+  @media(max-width: 768px){
+    .status-box ul li span:before{
+      font-size: 34px;
+    }
+  }
+
+.StripeElement{
+  margin-left:  auto;
+  width: 50%;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+  
+/*404 page*/
+.main{
+  margin-top: 2%;
+  overflow-x: hidden;
+    overflow-y: hidden;
+  
+}
+
+.st0{fill:#fff}
+.st2{fill:#5d89af}
+.st3{fill:#709abf}
+.st4,.st6{
+  fill:#fff;
+  stroke:#b3dcdf;
+  stroke-miterlimit:10
+}
+.st6{
+  stroke:#5d89af;
+  stroke-width:2
+}
+.st7,.st8,.st9{
+  stroke:#709abf;
+  stroke-miterlimit:10
+}
+
+.st7{
+  stroke-width:5;
+  stroke-linecap:round;
+  fill:none
+}
+.st8,.st9{
+  fill:#fff
+}
+.st9{
+  fill:none
+}
+.st10{
+  fill: none;
+}
+
+#cloud1{
+  animation: cloud003 15s linear infinite;
+}
+
+#cloud2{
+  animation: cloud002 25s linear infinite;
+}
+
+#cloud3{
+  animation: cloud003 20s linear infinite;
+}
+
+#cloud4{
+  animation: float 4s linear infinite;
+}
+
+#cloud5{
+  animation: float 8s linear infinite;
+}
+
+#cloud7{
+  animation: float 5s linear infinite;
+}
+
+#tracks{
+  animation: slide 650ms linear infinite;
+}
+
+#bumps{
+  animation: land 10000ms linear infinite;
+}
+
+@keyframes jig {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(1px); }
+    100% { transform: translateY(0px); }
+}
+
+#car-layers{
+  animation: jig 0.35s linear infinite;
+}
+
+@keyframes land {
+    from { transform: translateX(0); }
+    to { transform: translateX(1000px); }
+}
+
+
+@keyframes slide {
+    from { transform: translateX(0px); }
+    to { transform: translateX(100px); }
+}
+
+/* @keyframes cloudFloat {
+  0% { transform: translateX(0) translateY(3px); }
+  100% { transform: translateX(1000px) translateY(0); }
+} */
+
+@keyframes cloud001 {
+  0% { transform: translateX(-1000px) translateY(3px); }
+  100% { transform: translateX(1000px) translateY(0); }
+}
+
+@keyframes cloud002 {
+  0% { transform: translateX(-1000px) translateY(3px); }
+  100% { transform: translateX(1000px) translateY(0); }
+}
+
+@keyframes cloud003 {
+  0% { transform: translateX(-1000px) translateY(3px); }
+  100% { transform: translateX(1000px) translateY(0); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px) translateX(0); }
+    50% { transform: translateY(8px) translateX(5px); }
+    100% { transform: translateY(0px) translateX(0); }
+}
+
+#bracefront, #braceback{
+  animation: braces 1s linear infinite;
+}
+
+@keyframes braces {
+    0% { transform: translateX(-2px); }
+  25% { transform: translateX(3px); }
+    50% { transform: translateX(-2px); }
+    75% { transform: translateX(3px); }
+  100% { transform: translateX(-2px); }
+}
+
+  

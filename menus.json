@@ -1,0 +1,110 @@
+[
+    {
+        "_id": {
+            "$oid": "1fe62f949a85641d78b0f9d4"
+        },
+        "name": "Bagel-Pizza",
+        "image": "bagel-pizza.jpg",
+        "price": "500",
+        "size": "large"
+    },
+    {
+        "_id": {
+            "$oid": "2fe62f949a85641d78b0f9d4"
+        },
+        "name": "Breakfast-Pizza",
+        "image": "breakfast-pizza.jpg",
+        "price": "600",
+        "size": "large"
+    },
+    {
+        "_id": {
+            "$oid": "3fe62f949a85641d78b0f9d4"
+        },
+        "name": "Californian-Pizza",
+        "image": "californian-pizza.jpg",
+        "price": "500",
+        "size": "medium"
+    },
+    {
+        "_id": {
+            "$oid": "4fe62f949a85641d78b0f9d4"
+        },
+        "name": "Deep-Dish-Pizza",
+        "image": "deep-dish-pizza.jpg",
+        "price": "450",
+        "size": "small"
+    },
+    {
+        "_id": {
+            "$oid": "5fe62f949a85641d78b0f9d4"
+        },
+        "name": "Dessert-Pizza",
+        "image": "dessert-pizza.jpg",
+        "price": "530",
+        "size": "medium"
+    },
+    {
+        "_id": {
+            "$oid": "6fe62f949a85641d78b0f9d4"
+        },
+        "name": "Detroit-Pizza",
+        "image": "detroit-style-pizza.jpg",
+        "price": "580",
+        "size": "large"
+    },
+    {
+        "_id": {
+            "$oid": "7fe62f949a85641d78b0f9d4"
+        },
+        "name": "Greek-Pizza",
+        "image": "greek-pizza.jpg",
+        "price": "700",
+        "size": "medium"
+    },
+    {
+        "_id": {
+            "$oid": "8fe62f949a85641d78b0f9d4"
+        },
+        "name": "Margherita-Pizza",
+        "image": "margherita.jpg",
+        "price": "480",
+        "size": "small"
+    },
+    {
+        "_id": {
+            "$oid": "9fe62f949a85641d78b0f9d4"
+        },
+        "name": "Neapolitan-Pizza",
+        "image": "neapolitan-pizza.jpg",
+        "price": "620",
+        "size": "large"
+    },
+    {
+        "_id": {
+            "$oid": "1fe02f949a85641d78b0f9d4"
+        },
+        "name": "New-York-Pizza",
+        "image": "new-york-pizza.jpg",
+        "price": "590",
+        "size": "medium"
+    },
+    {
+        "_id": {
+            "$oid": "1fe12f949a85641d78b0f9d4"
+        },
+        "name": "Sicilian-Pizza",
+        "image": "sicilian-pizza.jpg",
+        "price": "600",
+        "size": "large"
+    },
+    {
+        "_id": {
+            "$oid": "1fe22f949a85641d78b0f9d4"
+        },
+        "name": "St-Louis-Pizza",
+        "image": "st-louis-pizza.jpg",
+        "price": "610",
+        "size": "medium"
+    }
+] 

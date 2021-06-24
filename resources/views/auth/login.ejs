@@ -1,0 +1,36 @@
+<section class="login flex justify-center pt-24">
+
+    <!-- component -->
+<form action="/login" method="POST" class="login bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col">
+ 
+  <% if(messages.error){ %>
+    <span class="text-red-500 text-5m"><%= messages.error %></span>
+   <% } %> 
+  
+  <div class="mb-4">
+      <label class="block text-grey-darker text-sm font-bold mb-2" for="email">
+        Email
+      </label>
+      <input name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email" type="email" placeholder="Enter your email">
+    </div>
+
+    <div class="mb-6">
+      <label class="block text-grey-darker text-sm font-bold mb-2" for="password">
+        Password
+      </label>
+      <input name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="Enter your password">
+    </div>
+
+    
+
+    <div class="flex items-center justify-between">
+      <button class="btn rounded-full text-white font-bold py-2 px-4 rounded" type="submit">
+        Log In
+      </button>
+      <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="/register">
+        Don't have account ?
+      </a>
+    </div>
+</form>
+
+</section>
